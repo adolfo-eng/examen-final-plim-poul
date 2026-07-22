@@ -18,9 +18,9 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 22px;
+    padding: 20px;
     background-color: #111111;
-    border-bottom: 2px solid #ff6f00;
+    border-bottom: 3px solid #ff6f00;
     box-sizing: border-box;
 }
 .logo{
@@ -110,8 +110,9 @@ nav ul li a:hover{
 }
 .menu h2{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     margin-bottom: 40px;
+    margin-top: 80px;
 }
 .menu h2 span{
     color: #ff6f00;
@@ -260,7 +261,7 @@ nav ul li a:hover{
 }
 
 .contact-info h2 {
-    font-family: 'Impact', 'Arial Black', sans-serif;
+     font-family:'Times New Roman', Times, serif;
     font-size: 3rem;
     margin-bottom: 10px;
 }
@@ -681,4 +682,147 @@ footer#contact a:hover {
     font-size: 13px;
     display: flex;
     justify-content: space-between;
+}
+
+
+
+@media (max-width: 768px) {
+  
+  body {
+    padding-top: 90px !important;
+  }
+
+  
+  .navigation {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    gap: 8px !important;
+  }
+
+  nav a {
+    font-size: 13px !important; 
+    padding: 4px 6px !important;
+  }
+
+  
+  .produits, .menu, .eleman {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+  }
+
+  
+  .produits, .eleman {
+    width: 100% !important;
+    max-width: 340px !important;
+    margin: 0 auto 15px auto !important;
+  }
+}
+
+
+@media (max-width: 768px) {
+  header, nav {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  
+  nav a {
+    font-size: 12px !important;
+    margin: 0 4px !important;
+  }
+}
+
+
+@media (max-width: 768px) {
+
+  
+  #contact {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 20px 20px !important; 
+    margin: 0 !important;
+    box-sizing: border-box !important;
+    text-align: left !important;
+  }
+
+  
+  #contact > div {
+    width: 100% !important;
+    margin-bottom: 15px !important;
+    padding: 0 !important;
+  }
+
+  
+  .footer-bottom {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 5px !important;
+    align-items: flex-start !important;
+  }
+
+}
+
+
+
+@media (max-width: 768px) {
+
+  
+  body {
+    padding-top: 80px !important;
+  }
+
+  .section {
+    padding-top: 20px !important;
+    margin-bottom: 30px !important;
+  }
+
+  
+  .produits {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 25px !important; 
+    width: 100% !important;
+  }
+
+  
+  .eleman {
+    position: relative !important; 
+    width: 90% !important;
+    max-width: 360px !important;
+    margin: 0 auto !important;
+    padding: 15px !important;
+    box-sizing: border-box !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  
+  .eleman img {
+    width: 100% !important;
+    height: auto !important;
+    max-height: 200px !important;
+    object-fit: cover !important;
+    border-radius: 8px !important;
+  }
+
+
+  .prix {
+    position: static !important; /* Retire tout posiblite pou l al chita deyò kat la */
+    margin-top: 10px !important;
+    font-weight: bold !important;
+    color: #ff6b00 !important;
+  }
+
+  
+  .badge {
+    position: absolute !important;
+    top: 25px !important;
+    left: 25px !important;
+    z-index: 2 !important;
+  }
 }
