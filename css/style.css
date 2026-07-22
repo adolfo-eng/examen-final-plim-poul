@@ -475,3 +475,210 @@ nav ul li a:hover{
         gap: 20px;
     }
 }
+
+.hero {
+    padding: 120px 8% 50px;
+    text-align: left;
+    background-color: #1a1a1a;
+}
+
+.hero-eyebrow, .eyebrow {
+    display: inline-block;
+    color: #ff6f00;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    color: #ffffff;
+    margin-bottom: 15px;
+    line-height: 1.2;
+}
+
+.hero h1 em {
+    color: #ff6f00;
+    font-style: italic;
+}
+
+.hero p {
+    color: #ccc;
+    max-width: 700px;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.flag-accent {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 8px;
+}
+
+.flag-accent span {
+    width: 30px;
+    height: 4px;
+    background-color: #ff6f00;
+    display: inline-block;
+}
+
+.flag-caption {
+    color: #888;
+    font-size: 13px;
+    font-style: italic;
+}
+
+
+.grill-divider {
+    height: 3px;
+    background: linear-gradient(90deg, #ff6f00, transparent);
+    margin: 30px 8%;
+}
+
+
+.story {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 50px 8%;
+    background-color: #141414;
+    align-items: center;
+}
+
+.story-sign {
+    flex: 1;
+    min-width: 280px;
+    background-color: #222;
+    padding: 30px;
+    border-left: 4px solid #ff6f00;
+    border-radius: 8px;
+}
+
+.story-sign h3 {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.story-sign p {
+    color: #bbb;
+    font-style: italic;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.story-text {
+    flex: 2;
+    min-width: 300px;
+}
+
+.story-text h2 {
+    font-size: 28px;
+    color: #fff;
+    margin: 10px 0 15px;
+}
+
+.story-text p {
+    color: #ddd;
+    line-height: 1.7;
+    font-size: 15px;
+}
+
+
+.values {
+    padding: 60px 8%;
+    background-color: #1a1a1a;
+}
+
+.values-head h2 {
+    font-size: 30px;
+    color: #fff;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+.value-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.value-card {
+    background-color: #222;
+    padding: 25px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.value-card:hover {
+    transform: translateY(-5px);
+    border-color: #ff6f00;
+}
+
+.value-num {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff6f00;
+    margin-bottom: 10px;
+}
+
+.value-card h3 {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.value-card p {
+    color: #aaa;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+footer#contact {
+    background-color: #0d0d0d;
+    padding: 40px 8% 20px;
+    border-top: 2px solid #ff6f00;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+footer#contact > div {
+    flex: 1;
+    min-width: 200px;
+}
+
+footer#contact h4 {
+    color: #ff6f00;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+footer#contact p, footer#contact a {
+    color: #ccc;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 1.6;
+}
+
+footer#contact a:hover {
+    color: #ff6f00;
+}
+
+.footer-bottom {
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #222;
+    color: #777;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+}
