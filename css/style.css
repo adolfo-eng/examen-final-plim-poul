@@ -74,6 +74,7 @@ nav ul li a:hover{
 }
 .section-text .style{
     color: #ff6f00;
+    font-size: 2.5rem;
 }
 .section-text p{
     font-size: 20px;
@@ -860,5 +861,19 @@ footer#contact a:hover {
     font-size: 11px !important; 
     padding: 2px 4px !important;
     white-space: nowrap !important; 
+  }
+}
+
+@media (max-width: 768px) {
+  .section-text .style{
+    font-size: clamp(1.2rem,5vw,2.5rem);
+
+  }
+}
+
+@media (max-width: 768px) {
+  .section-text h1{
+    font-size: clamp(1.2rem,5vw,2.5rem);
+
   }
 }
