@@ -956,18 +956,10 @@ nav ul {
   input[type="checkbox"]#bar:checked ~ nav {
     display: block;
   }
-}
-
-nav ul li a :hover{
+  nav ul li a :hover{
     color: #ff6b00 !important;
+    transform: translateY(-5);
+}
 }
 
-@media screen and (max-width: 768px) {
-    nav ul li a :hover{
-        color: #ff6b00 !important;
-    }
 
-    .icon:hover{
-        color: #ff6b00 !important;
-    }
-}
